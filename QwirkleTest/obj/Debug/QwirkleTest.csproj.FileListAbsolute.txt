@@ -1,0 +1,260 @@
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csprojAssemblyReference.cache
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CoreCompileInputs.cache
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.dll
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.pdb
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.dll
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.pdb
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CopyComplete
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.dll
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.pdb
+F:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+F:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+F:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+F:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.dll
+F:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.pdb
+F:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.dll
+F:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.pdb
+F:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csprojAssemblyReference.cache
+F:\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CoreCompileInputs.cache
+F:\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CopyComplete
+F:\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.dll
+F:\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.pdb
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.dll
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.pdb
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.dll
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.pdb
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csprojAssemblyReference.cache
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CoreCompileInputs.cache
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CopyComplete
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.dll
+E:\V3\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.pdb
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.dll
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.pdb
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.dll
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.pdb
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csprojAssemblyReference.cache
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CoreCompileInputs.cache
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CopyComplete
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.dll
+F:\V4\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.pdb
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.dll
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.pdb
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.dll
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.pdb
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csprojAssemblyReference.cache
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CoreCompileInputs.cache
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CopyComplete
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.dll
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.pdb
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.dll
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.pdb
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.dll
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.pdb
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.dll
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.pdb
+E:\V5\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csprojResolveAssemblyReference.cache
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.dll
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.pdb
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.dll
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.pdb
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csprojResolveAssemblyReference.cache
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.dll
+E:\V7\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.pdb
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.dll
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.pdb
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.dll
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.pdb
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csprojAssemblyReference.cache
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CoreCompileInputs.cache
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CopyComplete
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.dll
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.pdb
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.dll
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.pdb
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.dll
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.pdb
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csprojAssemblyReference.cache
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CoreCompileInputs.cache
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CopyComplete
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.dll
+F:\C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.pdb
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.dll
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.pdb
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.dll
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.pdb
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csprojAssemblyReference.cache
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CoreCompileInputs.cache
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CopyComplete
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.dll
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.pdb
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.dll
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.pdb
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.dll
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.pdb
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csprojAssemblyReference.cache
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CoreCompileInputs.cache
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CopyComplete
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.dll
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.pdb
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.dll
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.pdb
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.dll
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.pdb
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csprojAssemblyReference.cache
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CoreCompileInputs.cache
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CopyComplete
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.dll
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.pdb
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.dll
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.pdb
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.dll
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.pdb
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csprojAssemblyReference.cache
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CoreCompileInputs.cache
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csproj.CopyComplete
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.dll
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.pdb
+E:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.dll
+E:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleTest.pdb
+E:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.dll
+E:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\QwirkleLibrary.pdb
+E:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\qwirkle\SolutionQwirkle\QwirkleTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.csprojResolveAssemblyReference.cache
+E:\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.dll
+E:\qwirkle\SolutionQwirkle\QwirkleTest\obj\Debug\QwirkleTest.pdb

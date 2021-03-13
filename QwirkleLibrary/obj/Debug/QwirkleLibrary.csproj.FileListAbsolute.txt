@@ -1,0 +1,87 @@
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojAssemblyReference.cache
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csproj.CoreCompileInputs.cache
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+F:\Projet Tutoré\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
+F:\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+F:\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+F:\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojAssemblyReference.cache
+F:\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csproj.CoreCompileInputs.cache
+F:\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+F:\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
+E:\V3\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+E:\V3\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+E:\V3\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojAssemblyReference.cache
+E:\V3\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csproj.CoreCompileInputs.cache
+E:\V3\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+E:\V3\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
+F:\V4\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojAssemblyReference.cache
+F:\V4\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csproj.CoreCompileInputs.cache
+F:\V4\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+F:\V4\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
+F:\V4\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+F:\V4\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojAssemblyReference.cache
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csproj.CoreCompileInputs.cache
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+E:\V4 - Copie\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
+E:\V5\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+E:\V5\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+E:\V5\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+E:\V5\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
+E:\V5\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojResolveAssemblyReference.cache
+E:\V7\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+E:\V7\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+E:\V7\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojResolveAssemblyReference.cache
+E:\V7\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+E:\V7\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojAssemblyReference.cache
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csproj.CoreCompileInputs.cache
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+F:\My big projet tutoré\V7\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
+F:\My big projet tutoré\V8 - C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+F:\My big projet tutoré\V8 - C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+F:\My big projet tutoré\V8 - C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojAssemblyReference.cache
+F:\My big projet tutoré\V8 - C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csproj.CoreCompileInputs.cache
+F:\My big projet tutoré\V8 - C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+F:\My big projet tutoré\V8 - C#qwirkle oklm\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojAssemblyReference.cache
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csproj.CoreCompileInputs.cache
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+F:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojAssemblyReference.cache
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csproj.CoreCompileInputs.cache
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+E:\My big projet tutoré\V9 - merde\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojAssemblyReference.cache
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csproj.CoreCompileInputs.cache
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+E:\My big projet tutoré\V10 - make qwirkle great again\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojAssemblyReference.cache
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csproj.CoreCompileInputs.cache
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+E:\My big projet tutoré\V11 de ta mère la pute là\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
+E:\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+E:\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+E:\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+E:\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
+E:\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojResolveAssemblyReference.cache
+D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.dll
+D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\QwirkleLibrary\bin\Debug\QwirkleLibrary.pdb
+D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csprojAssemblyReference.cache
+D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.csproj.CoreCompileInputs.cache
+D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.dll
+D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\QwirkleLibrary\obj\Debug\QwirkleLibrary.pdb
