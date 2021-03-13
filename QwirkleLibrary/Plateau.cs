@@ -203,6 +203,7 @@ namespace QwirkleLibrary
                 return false;
         }
 
+        
         public static int CalculScore(int PositionX, int PositionY)
         {
             int score = 0;
