@@ -55,6 +55,8 @@ Partial Class frmFDJ
         Me.PB6 = New System.Windows.Forms.PictureBox()
         Me.Player = New System.Windows.Forms.GroupBox()
         Me.Help_Button = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.Score.SuspendLayout()
         Me.Help.SuspendLayout()
         CType(Me.PBEchange, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -294,6 +296,8 @@ Partial Class frmFDJ
         'Help
         '
         Me.Help.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
+        Me.Help.Controls.Add(Me.Label4)
+        Me.Help.Controls.Add(Me.Label3)
         Me.Help.Controls.Add(Me.Label2)
         Me.Help.Controls.Add(Me.Label1)
         Me.Help.Controls.Add(Me.lbltestMF)
@@ -303,7 +307,7 @@ Partial Class frmFDJ
         Me.Help.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Help.Name = "Help"
         Me.Help.Padding = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Help.Size = New System.Drawing.Size(394, 197)
+        Me.Help.Size = New System.Drawing.Size(394, 233)
         Me.Help.TabIndex = 17
         Me.Help.TabStop = False
         '
@@ -336,7 +340,7 @@ Partial Class frmFDJ
         Me.lbltestMF.AutoSize = True
         Me.lbltestMF.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.lbltestMF.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.lbltestMF.Location = New System.Drawing.Point(75, 152)
+        Me.lbltestMF.Location = New System.Drawing.Point(47, 152)
         Me.lbltestMF.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbltestMF.Name = "lbltestMF"
         Me.lbltestMF.Size = New System.Drawing.Size(86, 25)
@@ -348,7 +352,7 @@ Partial Class frmFDJ
         Me.lbltestTMF.AutoSize = True
         Me.lbltestTMF.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.lbltestTMF.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.lbltestTMF.Location = New System.Drawing.Point(198, 152)
+        Me.lbltestTMF.Location = New System.Drawing.Point(217, 152)
         Me.lbltestTMF.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lbltestTMF.Name = "lbltestTMF"
         Me.lbltestTMF.Size = New System.Drawing.Size(60, 25)
@@ -368,10 +372,10 @@ Partial Class frmFDJ
         'cmdStart
         '
         Me.cmdStart.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.cmdStart.Location = New System.Drawing.Point(130, 292)
+        Me.cmdStart.Location = New System.Drawing.Point(130, 339)
         Me.cmdStart.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.cmdStart.Name = "cmdStart"
-        Me.cmdStart.Size = New System.Drawing.Size(152, 105)
+        Me.cmdStart.Size = New System.Drawing.Size(152, 66)
         Me.cmdStart.TabIndex = 15
         Me.cmdStart.Text = "Commencer"
         Me.cmdStart.UseVisualStyleBackColor = True
@@ -408,7 +412,7 @@ Partial Class frmFDJ
         Me.TLPMainJoueur.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 135.0!))
         Me.TLPMainJoueur.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 135.0!))
         Me.TLPMainJoueur.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 135.0!))
-        Me.TLPMainJoueur.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 214.0!))
+        Me.TLPMainJoueur.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 218.0!))
         Me.TLPMainJoueur.Controls.Add(Me.PB2, 1, 0)
         Me.TLPMainJoueur.Controls.Add(Me.PB3, 2, 0)
         Me.TLPMainJoueur.Controls.Add(Me.PB4, 3, 0)
@@ -523,6 +527,30 @@ Partial Class frmFDJ
         Me.Help_Button.Text = "?"
         Me.Help_Button.UseVisualStyleBackColor = False
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label3.Location = New System.Drawing.Point(47, 189)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(81, 25)
+        Me.Label3.TabIndex = 19
+        Me.Label3.Text = "Couleur"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label4.Location = New System.Drawing.Point(217, 189)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(68, 25)
+        Me.Label4.TabIndex = 20
+        Me.Label4.Text = "Forme"
+        '
         'frmFDJ
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -589,4 +617,6 @@ Partial Class frmFDJ
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Help_Button As Button
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
 End Class

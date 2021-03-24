@@ -6,7 +6,6 @@ D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\bin\Deb
 D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\bin\Debug\QwirkleLibrary.pdb
 D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.vbprojAssemblyReference.cache
 D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.frmADFDP.resources
-D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.frmFDJ.resources
 D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.frmMCJ.resources
 D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.frmMEJ.resources
 D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.FrmMP.resources
@@ -19,3 +18,4 @@ D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Deb
 D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.exe
 D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.xml
 D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.pdb
+D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.frmFDJ.resources

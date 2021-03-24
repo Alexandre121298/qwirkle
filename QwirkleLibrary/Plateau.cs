@@ -65,7 +65,8 @@ namespace QwirkleLibrary
             {
                 for(int j=0;j<20;j++)
                 {
-                    SetCase(i, j, init);                }
+                    SetCase(i, j, init);                
+                }
             }
         }
 
@@ -89,209 +90,436 @@ namespace QwirkleLibrary
             return Donnee;
         }
 
+        //public static bool PremiereTuile(int PositionX, int PositionY, Tuile tuile)
+        //{
+        //    bool valide = true;
+        //    char[] Donnee = new char[10];
+        //    Donnee = RecupAutourTuile(PositionX, PositionY);
 
-        public static bool ComparaisonTuileGauche(int PositionX, int PositionY)
-        {
-            bool valide = false;
-            char[] tableau = RecupAutourTuile(PositionX, PositionY);
-            if ((tableau[8] == tableau[0]) && (tableau[9] != tableau[1])) // compare la couleur  de la tuile a la tuile de gauche
-            {
-                valide = true;
-            }
-            else
-            {
-                if ((tableau[9] == tableau[1]) && (tableau[8] != tableau[0])) // Compare la forme de la tuile a la tuile de gauche
-                {
-                    valide = true;
-                }
-            }
-            return valide;
-        }
+        //    if((Donnee[0] != ' ') || (Donnee[2] != ' ') || (Donnee [4] != ' ') || (Donnee[6] != ' '))
+        //    {
+        //        valide = false;
+        //    }
+        //    return valide;
+        //}
 
-        public static bool ComparisonTuileDroite(int PositionX, int PositionY)
-        {
-            bool valide = false;
-            char[] tableau = RecupAutourTuile(PositionX, PositionY);
-            if ((tableau[8] == tableau[2]) && (tableau[9] != tableau[3])) // compare la couleur  de la tuile a la tuile de droite
-            {
-                valide = true;
-            }
-            else
-            {
-                if ((tableau[9] == tableau[3]) && (tableau[8] != tableau[2])) // Compare la forme de la tuile a la tuile de droite
-                {
-                    valide = true;
-                }
-            }
-            return valide;
-        }
+        //public static bool ValiderPlacement(int PositionX, int PositionY, Tuile tuile)
+        //{
+        //    bool valide = false;
 
-        public static bool ComparaisonTuileHaut(int PositionX, int PositionY)
-        {
-            bool valide = false;
-            char[] tableau = RecupAutourTuile(PositionX, PositionY);
-
-            if ((tableau[8] == tableau[4]) && (tableau[9] != tableau[5])) // compare la couleur  de la tuile a la tuile en haut
-            {
-                valide = true;
-            }
-            else
-            {
-                if ((tableau[9] == tableau[5]) && (tableau[8] != tableau[4])) // Compare la forme de la tuile a la tuile en haut
-                {
-                    valide = true;
-                }
-            }
-            return valide;
-        }
-
-        public static bool ComparaisonTuileBas(int PositionX, int PositionY)
-        {
-            bool valide = false;
-            char[] tableau = RecupAutourTuile(PositionX, PositionY);
-            if ((tableau[8] == tableau[6]) && (tableau[9] != tableau[7])) // compare la couleur  de la tuile a la tuile en bas
-            {
-                valide = true;
-            }
-            else
-            {
-                if ((tableau[9] == tableau[7]) && (tableau[8] != tableau[6])) // Compare la forme de la tuile a la tuile en bas
-                {
-                    valide = true;
-                }
-            }
-            return valide;
-        }
+        //    if((GetCase(PositionX-1,PositionY).GetCouleur() == ' ') && (GetCase(PositionX + 1, PositionY).GetCouleur() == ' ') && (GetCase(PositionX, PositionY - 1).GetCouleur() == ' ') && (GetCase(PositionX, PositionY +1).GetCouleur() == ' '))
+        //    {
+        //        valide = true;
+        //    }
+        //    return valide;
+        //}
 
         public static bool ValiderPlacement(int PositionX, int PositionY, Tuile tuile)
         {
+            char forme = tuile.GetForme();
+            char couleur = tuile.GetCouleur();
             bool bonne_ligne = false;
+            int testpositionX = PositionX; //reprend la position actuelle de la tuile pour pouvoir la manipuler et checker les tuiles alentours
+            int testpositionY = PositionY;
+            char testX = 'A';  //lettre au hasard, non existante en code couleur ou forme . Si elle change alors ça indique quel indice il faut tester
+            char testY = 'A';
+            int Nb_pions_lignesX = 0;
+            int Nb_pions_lignesY = 0;
 
-            if (ComparaisonTuileGauche(PositionX, PositionY) == true)
+            if (GetCase(PositionX, PositionY).GetCouleur() != ' ') //s'il retourne une couleur, il possède normalement aussi une forme donc aucun besoin de tester. Idem pour les autres tests
             {
-                bonne_ligne = true;
+                return false;
             }
-            else
+
+            if ((PositionY - 1 >= 0) && (GetCase(PositionX, PositionY - 1).GetCouleur() != ' ')) //Test si case au dessus valide, et si case au dessus
             {
-                if (ComparaisonTuileHaut(PositionX, PositionY) == true)
+                if ((GetCase(testpositionX, testpositionY - 1).GetCouleur() != couleur) && (GetCase(testpositionX, testpositionY - 1).GetForme() != forme))  //test si couleur et forme différentes
                 {
-                    bonne_ligne = true;
+                    return false;
                 }
-                else
+
+                if (GetCase(testpositionX, testpositionY - 1).GetCouleur() == couleur) // test si même couleur
                 {
-                    if (ComparisonTuileDroite(PositionX, PositionY) == true)
+                    if (testY == 'A')
                     {
-                        bonne_ligne = true;
+                        testY = couleur;
                     }
                     else
                     {
-                        if (ComparaisonTuileBas(PositionX, PositionY) == true)
+                        if (testY != couleur)
                         {
-                            bonne_ligne = true;
-                        }
-                        else
-                        {
-                            bonne_ligne = false;
+                            return false;
                         }
                     }
-                }
-            }
 
-            if (bonne_ligne == true)
-                return bonne_ligne;
-            else
-                return false;
-        }
-
-        
-        public static int CalculScore(int PositionX, int PositionY)
-        {
-            int score = 0;
-            int scoreligneX = 0;
-            int scoreligneY = 0;
-            int testpositionX = PositionX;
-            int testpositionY = PositionY;
-
-
-            if ((PositionY - 1 >= 0) && (GetCase(PositionX, PositionY - 1).GetCouleur() != ' '))
-            {
                     testpositionX = PositionX;
                     testpositionY = PositionY;
                     testpositionY--;
-                    while ((testpositionY >= 0) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' '))
+                    while ((testpositionY >= 0) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' ') && (testpositionY >= PositionY - 5))
                     {
-                        scoreligneY++;
+                        Nb_pions_lignesY++;
+                        if ((GetCase(testpositionX, testpositionY).GetCouleur() != testY) || (GetCase(testpositionX, testpositionY).GetForme() == forme) || (Nb_pions_lignesY > 5))
+                        {
+                            return false;
+                        }
                         testpositionY--;
+                    }
+                    if ((testpositionY >= 0) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' '))
+                    {
+                        return false;
+                    }
+                }
+                testpositionX = PositionX;
+                testpositionY = PositionY;
+
+                if (GetCase(testpositionX, testpositionY - 1).GetForme() == forme) //test si même forme
+                {
+                    if (testY == 'A')
+                    {
+                        testY = forme;
+                    }
+                    else
+                    {
+                        if (testY != forme)
+                        {
+                            return false;
+                        }
                     }
                     testpositionX = PositionX;
                     testpositionY = PositionY;
-            } //on ne teste que les couleurs car par principe, tous pions à couleur a forcemment une forme dans ce cas précis
-
-            if ((PositionY + 1 <=19) && (GetCase(PositionX, PositionY + 1).GetCouleur() != ' '))
-            {
+                    testpositionY--;
+                    while ((testpositionY >= 0) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' ') && (testpositionY >= PositionY - 5))
+                    {
+                        Nb_pions_lignesY++;
+                        if ((GetCase(testpositionX, testpositionY).GetForme() != testY) || (GetCase(testpositionX, testpositionY).GetCouleur() == couleur) || (Nb_pions_lignesY++ > 5))
+                        {
+                            return false;
+                        }
+                        testpositionY--;
+                    }
+                    if ((testpositionY >= 0) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' '))
+                    {
+                        return false;
+                    }
+                }
+                bonne_ligne = true;
                 testpositionX = PositionX;
                 testpositionY = PositionY;
-                testpositionY++;
-                while ((testpositionY <= 19) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' '))
+            }
+
+            if ((PositionY + 1 <= 19) && (GetCase(PositionX, PositionY + 1).GetCouleur() != ' ')) // Test si case en dessous
+            {
+                if ((GetCase(testpositionX, testpositionY + 1).GetCouleur() != couleur) && (GetCase(testpositionX, testpositionY + 1).GetForme() != forme))  //test si couleur et forme différentes
                 {
-                    scoreligneY++;
+                    return false;
+                }
+
+                if (GetCase(testpositionX, testpositionY + 1).GetCouleur() == couleur) // test si même couleur
+                {
+                    if (testY == 'A')
+                    {
+                        testY = couleur;
+                    }
+                    else
+                    {
+                        if (testY != couleur)
+                        {
+                            return false;
+                        }
+                    }
+                    testpositionX = PositionX;
+                    testpositionY = PositionY;
                     testpositionY++;
+                    while ((testpositionY <= 19) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' ') && (testpositionY <= PositionY + 5))
+                    {
+                        Nb_pions_lignesY++;
+                        if ((GetCase(testpositionX, testpositionY).GetCouleur() != testY) || (GetCase(testpositionX, testpositionY).GetForme() == forme) || (Nb_pions_lignesY > 5))
+                        {
+                            return false;
+                        }
+                        testpositionY++;
+                    }
+                    if ((testpositionY <= 19) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' '))
+                    {
+                        return false;
+                    }
                 }
+                testpositionX = PositionX;
+                testpositionY = PositionY;
+
+                if (GetCase(testpositionX, testpositionY + 1).GetForme() == forme) //test si même forme
+                {
+                    if (testY == 'A')
+                    {
+                        testY = forme;
+                    }
+                    else
+                    {
+                        if (testY != forme)
+                        {
+                            return false;
+                        }
+                    }
+                    testpositionX = PositionX;
+                    testpositionY = PositionY;
+                    testpositionY++;
+                    while ((testpositionY <= 19) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' ') && (testpositionY <= PositionY + 5))
+                    {
+                        Nb_pions_lignesY++;
+                        if ((GetCase(testpositionX, testpositionY).GetForme() != testY) || (GetCase(testpositionX, testpositionY).GetCouleur() == couleur) || (Nb_pions_lignesY > 5))
+                        {
+                            return false;
+                        }
+                        testpositionY++;
+                    }
+                    if ((testpositionY <= 19) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' '))
+                    {
+                        return false;
+                    }
+                }
+                bonne_ligne = true;
                 testpositionX = PositionX;
                 testpositionY = PositionY;
             }
 
-            if ((PositionX - 1 >= 0) && (GetCase(PositionX - 1, PositionY).GetCouleur() != ' '))
+            if ((PositionX - 1 >= 0) && (GetCase(PositionX - 1, PositionY).GetCouleur() != ' ')) //Test si case à gauche
             {
-                testpositionX = PositionX;
-                testpositionY = PositionY;
-                testpositionX--;
-                while ((testpositionX >= 0) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' '))
+                if ((GetCase(testpositionX - 1, testpositionY).GetCouleur() != couleur) && (GetCase(testpositionX - 1, testpositionY).GetForme() != forme))  //test si couleur et forme différentes
                 {
-                    scoreligneX++;
+                    return false;
+                }
+
+                if (GetCase(testpositionX - 1, testpositionY).GetCouleur() == couleur) // test si même couleur
+                {
+                    if (testX == 'A')
+                    {
+                        testX = couleur;
+                    }
+                    else
+                    {
+                        if (testX != couleur)
+                        {
+                            return false;
+                        }
+                    }
+                    testpositionX = PositionX;
+                    testpositionY = PositionY;
                     testpositionX--;
+                    while ((testpositionX >= 0) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' ') && (testpositionX >= PositionX - 5))
+                    {
+                        Nb_pions_lignesX++;
+                        if ((GetCase(testpositionX, testpositionY).GetCouleur() != testX) || (GetCase(testpositionX, testpositionY).GetForme() == forme) || (Nb_pions_lignesX > 5))
+                        {
+                            return false;
+                        }
+                        testpositionX--;
+                    }
+                    if ((testpositionX >= 0) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' '))
+                    {
+                        return false;
+                    }
                 }
                 testpositionX = PositionX;
                 testpositionY = PositionY;
-            }
 
-            if ((PositionX + 1 <+ 19) && (GetCase(PositionX + 1, PositionY).GetCouleur() != ' '))
-            {
-                testpositionX = PositionX;
-                testpositionY = PositionY;
-                testpositionX++;
-                while ((testpositionX <= 19) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' '))
+                if (GetCase(testpositionX - 1, testpositionY).GetForme() == forme) //test si même forme
                 {
-                    scoreligneX++;
-                    testpositionX++;
+                    if (testX == 'A')
+                    {
+                        testX = forme;
+                    }
+                    else
+                    {
+                        if (testX != forme)
+                        {
+                            return false;
+                        }
+                    }
+                    testpositionX = PositionX;
+                    testpositionY = PositionY;
+                    testpositionX--;
+                    while ((testpositionX >= 0) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' ') && (testpositionX >= PositionX - 5))
+                    {
+                        Nb_pions_lignesX++;
+                        if ((GetCase(testpositionX, testpositionY).GetForme() != testX) || (GetCase(testpositionX, testpositionY).GetCouleur() == couleur) || (Nb_pions_lignesX > 5))
+                        {
+                            return false;
+                        }
+                        testpositionX--;
+                    }
+                    if ((testpositionX >= 0) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' '))
+                    {
+                        return false;
+                    }
                 }
+                bonne_ligne = true;
                 testpositionX = PositionX;
                 testpositionY = PositionY;
             }
 
-
-            if (scoreligneX !=0) //s'il y a des pions sur cette ligne, il faut bien compter le pion qu'on pose
+            if ((PositionX + 1 <= 19) && (GetCase(PositionX + 1, PositionY).GetCouleur() != ' ')) //Test si case à droite
             {
-                scoreligneX++;
+                if ((GetCase(testpositionX + 1, testpositionY).GetCouleur() != couleur) && (GetCase(testpositionX + 1, testpositionY).GetForme() != forme))  //test si couleur et forme différentes
+                {
+                    return false;
+                }
+
+                if (GetCase(testpositionX + 1, testpositionY).GetCouleur() == couleur) // test si même couleur
+                {
+                    if (testX == 'A')
+                    {
+                        testX = couleur;
+                    }
+                    else
+                    {
+                        if (testX != couleur)
+                        {
+                            return false;
+                        }
+                    }
+                    testpositionX = PositionX;
+                    testpositionY = PositionY;
+                    testpositionX++;
+                    while ((testpositionX <= 19) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' ') && (testpositionX <= PositionX + 5))
+                    {
+                        Nb_pions_lignesX++;
+                        if ((GetCase(testpositionX, testpositionY).GetCouleur() != testX) || (GetCase(testpositionX, testpositionY).GetForme() == forme) || (Nb_pions_lignesX > 5))
+                        {
+                            return false;
+                        }
+                        testpositionX++;
+                    }
+                    if ((testpositionX <= 19) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' '))
+                    {
+                        return false;
+                    }
+                }
+                testpositionX = PositionX;
+                testpositionY = PositionY;
+
+                if (GetCase(testpositionX + 1, testpositionY).GetForme() == forme) //test si même forme
+                {
+                    if (testX == 'A')
+                    {
+                        testX = forme;
+                    }
+                    else
+                    {
+                        if (testX != forme)
+                        {
+                            return false;
+                        }
+                    }
+                    testpositionX = PositionX;
+                    testpositionY = PositionY;
+                    testpositionX++;
+                    while ((testpositionX <= 19) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' ') && (testpositionX <= PositionX + 5))
+                    {
+                        Nb_pions_lignesX++;
+                        if ((GetCase(testpositionX, testpositionY).GetForme() != testX) || (GetCase(testpositionX, testpositionY).GetCouleur() == couleur) || (Nb_pions_lignesX > 5))
+                        {
+                            return false;
+                        }
+                        testpositionX++;
+                    }
+                    if ((testpositionX <= 19) && (GetCase(testpositionX, testpositionY).GetCouleur() != ' '))
+                    {
+                        return false;
+                    }
+                }
+                bonne_ligne = true;
+                testpositionX = PositionX;
+                testpositionY = PositionY;
             }
 
-            if (scoreligneY != 0) //idem
+            if (bonne_ligne == true) { return true; } //fin de verification et validation
+            else { return false; }
+
+        }
+        public static int Score(int PositionX, int PositionY, int JoueurScore)
+        {
+            int score = JoueurScore;
+            int CompteurdetuileDroite = 0;
+            int CompteurdetuileGauche = 0;
+            int CompteurdetuileHaut = 0;
+            int CompteurdetuileBas = 0;
+            char[] Donnee = new char[10];
+            Donnee = RecupAutourTuile(PositionX, PositionY);
+
+            score++;
+
+            if (Donnee[2] != ' ') //Calcule score ligne a droite de la tuile
             {
-                scoreligneY++;
+                for(int i = 1; i <= 5; i++)
+                {
+                    if (GetCase(PositionX + i, PositionY).GetCouleur() != ' ')
+                    {
+                        CompteurdetuileDroite++;
+                    }
+                }
+                if (CompteurdetuileDroite == 5)
+                    score = score + 6;
             }
 
-            if (scoreligneY == 6)
+
+            if (Donnee[0] != ' ') //Calcule score ligne a gauche de la tuile
             {
-                scoreligneY = scoreligneY + 6;
+                for (int i = 1; i <= 5; i++)
+                {
+                    if (GetCase(PositionX - i, PositionY).GetCouleur() != ' ')
+                    {
+                        CompteurdetuileGauche++;
+                    }
+                }
+                if (CompteurdetuileGauche == 5)
+                    score = score + 6;
             }
 
-            if (scoreligneX == 6)
+
+            if (Donnee[4] != ' ') //Calcule score ligne en haut de la tuile
             {
-                scoreligneX = scoreligneX + 6;
+                for (int i = 1; i <= 5; i++)
+                {
+                    if (GetCase(PositionX, PositionY - i).GetCouleur() != ' ')
+                    {
+                        CompteurdetuileHaut++;
+                    }
+                }
+                if (CompteurdetuileHaut == 5)
+                    score = score + 6;
             }
 
-            score = scoreligneX + scoreligneY;
+
+            if (Donnee[6] != ' ') //Calcule score ligne en bas de la tuile
+            {
+                for (int i = 1; i <= 5; i++)
+                {
+                    if (GetCase(PositionX, PositionY + i).GetCouleur() != ' ')
+                    {
+                        CompteurdetuileBas++;
+                    }
+                }
+                if (CompteurdetuileBas == 5)
+                    score = score + 6;
+            }
+
+
             return score;
         }
+
+
+
+
+
+        //Retour la bonne couleur
+        public static char testretourcouleur(int PositionX, int PositionY, Tuile tuile)
+        {
+            char[] Donnee = new char[10];
+            Donnee = RecupAutourTuile(PositionX, PositionY);
+            //return Donnee[8];
+            return GetCase(PositionX+1, PositionY ).GetForme(); // retourne la couleur a droite
+        }
+
+
     }
 }
