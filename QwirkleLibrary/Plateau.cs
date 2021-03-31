@@ -90,29 +90,6 @@ namespace QwirkleLibrary
             return Donnee;
         }
 
-        //public static bool PremiereTuile(int PositionX, int PositionY, Tuile tuile)
-        //{
-        //    bool valide = true;
-        //    char[] Donnee = new char[10];
-        //    Donnee = RecupAutourTuile(PositionX, PositionY);
-
-        //    if((Donnee[0] != ' ') || (Donnee[2] != ' ') || (Donnee [4] != ' ') || (Donnee[6] != ' '))
-        //    {
-        //        valide = false;
-        //    }
-        //    return valide;
-        //}
-
-        //public static bool ValiderPlacement(int PositionX, int PositionY, Tuile tuile)
-        //{
-        //    bool valide = false;
-
-        //    if((GetCase(PositionX-1,PositionY).GetCouleur() == ' ') && (GetCase(PositionX + 1, PositionY).GetCouleur() == ' ') && (GetCase(PositionX, PositionY - 1).GetCouleur() == ' ') && (GetCase(PositionX, PositionY +1).GetCouleur() == ' '))
-        //    {
-        //        valide = true;
-        //    }
-        //    return valide;
-        //}
 
         public static bool ValiderPlacement(int PositionX, int PositionY, Tuile tuile)
         {

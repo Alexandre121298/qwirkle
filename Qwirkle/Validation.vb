@@ -11,7 +11,4 @@ Public Class frmV
         Close()
     End Sub
 
-    Private Sub frmV_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 End Class

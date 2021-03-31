@@ -27,6 +27,7 @@ Partial Class FrmMP
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.cmdJouer = New System.Windows.Forms.Button()
         Me.lblCopyright = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -61,7 +62,7 @@ Partial Class FrmMP
         Me.cmdJouer.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.cmdJouer.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdJouer.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.cmdJouer.Location = New System.Drawing.Point(398, 429)
+        Me.cmdJouer.Location = New System.Drawing.Point(410, 356)
         Me.cmdJouer.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.cmdJouer.Name = "cmdJouer"
         Me.cmdJouer.Size = New System.Drawing.Size(396, 106)
@@ -82,18 +83,36 @@ Partial Class FrmMP
         Me.lblCopyright.TabIndex = 5
         Me.lblCopyright.Text = "©2021"
         '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.LimeGreen
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.ForestGreen
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button1.Location = New System.Drawing.Point(410, 516)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(396, 106)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "Jouer en Reseau"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'FrmMP
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1200, 695)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lblCopyright)
         Me.Controls.Add(Me.cmdJouer)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.lblPhraseIntro)
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "FrmMP"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Qwirkle - Menu Principal"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -104,4 +123,5 @@ Partial Class FrmMP
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents cmdJouer As Button
     Friend WithEvents lblCopyright As Label
+    Friend WithEvents Button1 As Button
 End Class

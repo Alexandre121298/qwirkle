@@ -19,3 +19,5 @@ D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Deb
 D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.xml
 D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.pdb
 D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.frmFDJ.resources
+D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.MenuLobby.resources
+D:\Etudes\Licence 3 MIAGE\Projets\Rendus\qwirkle\SolutionQwirkle\Qwirkle\obj\Debug\Qwirkle.JeuEnReseau.resources

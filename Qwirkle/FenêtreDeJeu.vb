@@ -142,33 +142,43 @@ Public Class frmFDJ
 
     'Permet de bouger les pions sur le tableau
     Private Sub pic_DragEnter(sender As Object, e As DragEventArgs)
-
-        If (e.Data.GetDataPresent(DataFormats.Bitmap)) And (Tour = 1) Then
-            e.Effect = DragDropEffects.Move
-        Else
-            If (e.Data.GetDataPresent(DataFormats.Bitmap)) And (Plateau.ValiderPlacement(PlateauVB.GetColumn(sender).ToString, PlateauVB.GetRow(sender).ToString, joueuractuel.GetMain(TuileMainChoisi)) = True) Then
+        If Tour_joueur = 1 Then
+            If (e.Data.GetDataPresent(DataFormats.Bitmap)) And (Tour = 1) Then
                 e.Effect = DragDropEffects.Move
             Else
-                e.Effect = DragDropEffects.None
+                If (e.Data.GetDataPresent(DataFormats.Bitmap)) And (Plateau.ValiderPlacement(PlateauVB.GetColumn(sender).ToString, PlateauVB.GetRow(sender).ToString, joueuractuel.GetMain(TuileMainChoisi)) = True) Then
+                    e.Effect = DragDropEffects.Move
+                Else
+                    e.Effect = DragDropEffects.None
+                End If
             End If
         End If
 
+        If Tour_joueur = 2 Then
+            If (e.Data.GetDataPresent(DataFormats.Bitmap)) And (Tour = 1) Then
+                e.Effect = DragDropEffects.Move
+            Else
+                If (e.Data.GetDataPresent(DataFormats.Bitmap)) And (Plateau.ValiderPlacement(PlateauVB.GetColumn(sender).ToString, PlateauVB.GetRow(sender).ToString, joueuractuel2.GetMain(TuileMainChoisi)) = True) Then
+                    e.Effect = DragDropEffects.Move
+                Else
+                    e.Effect = DragDropEffects.None
+                End If
+            End If
+        End If
     End Sub
 
     'poser sur le plateau
     Private Sub pic_DragDrop(sender As Object, e As DragEventArgs)
         If Tour_joueur = 1 Then
-
             sender.Image = e.Data.GetData(DataFormats.Bitmap) ''Pose l'image de la tuile dans la case du tableau
             joueuractuel.SetScore(Plateau.Score(PlateauVB.GetColumn(sender).ToString, PlateauVB.GetRow(sender).ToString, joueuractuel.GetScore()))
             joueuractuel.PlacerTuile(TuileMainChoisi, PlateauVB.GetColumn(sender).ToString, PlateauVB.GetRow(sender).ToString)
+
             lbltestMF.Text = "Colonne " & PlateauVB.GetColumn(sender) ''Recupere la colonne de la derniere tuile posée
             lbltestTMF.Text = "Ligne " & PlateauVB.GetRow(sender)     ''Recupere la ligne de la derniere tuile posée
-            'Label4.Text = "Couleur" & Plateau.testretourcouleur(PlateauVB.GetColumn(sender), PlateauVB.GetRow(sender), joueuractuel.GetMain(TuileMainChoisi))
-            Label4.Text = "Forme " & Plateau.testretourcouleur(PlateauVB.GetColumn(sender).ToString, PlateauVB.GetRow(sender).ToString, joueuractuel.GetMain(TuileMainChoisi))
             Plateau.SetPose_Finie(True)
-
         End If
+
         If Tour_joueur = 2 Then
             sender.Image = e.Data.GetData(DataFormats.Bitmap) ''Pose l'image de la tuile dans la case du tableau
             joueuractuel2.SetScore(Plateau.Score(PlateauVB.GetColumn(sender).ToString, PlateauVB.GetRow(sender).ToString, joueuractuel2.GetScore()))
@@ -182,28 +192,69 @@ Public Class frmFDJ
 
         If Tour_joueur = 3 Then
             sender.Image = e.Data.GetData(DataFormats.Bitmap) ''Pose l'image de la tuile dans la case du tableau
-            'joueuractuel3.SetScore(joueuractuel3.GetScore() + Plateau.Score(PlateauVB.GetColumn(sender).ToString, PlateauVB.GetRow(sender).ToString))
+            joueuractuel3.SetScore(Plateau.Score(PlateauVB.GetColumn(sender).ToString, PlateauVB.GetRow(sender).ToString, joueuractuel2.GetScore()))
             joueuractuel3.PlacerTuile(TuileMainChoisi, PlateauVB.GetColumn(sender).ToString, PlateauVB.GetRow(sender).ToString)
 
             lbltestMF.Text = "Colonne " & PlateauVB.GetColumn(sender) ''Recupere la colonne de la derniere tuile posée
             lbltestTMF.Text = "Ligne " & PlateauVB.GetRow(sender)     ''Recupere la ligne de la derniere tuile posée
-            Label4.Text = "Couleur" & Plateau.testretourcouleur(PlateauVB.GetColumn(sender), PlateauVB.GetRow(sender), joueuractuel3.GetMain(TuileMainChoisi))
+            Plateau.SetPose_Finie(True)
         End If
 
         If Tour_joueur = 4 Then
             sender.Image = e.Data.GetData(DataFormats.Bitmap) ''Pose l'image de la tuile dans la case du tableau
-            'joueuractuel4.SetScore(joueuractuel4.GetScore() + Plateau.Score(PlateauVB.GetColumn(sender).ToString, PlateauVB.GetRow(sender).ToString))
+            joueuractuel4.SetScore(Plateau.Score(PlateauVB.GetColumn(sender).ToString, PlateauVB.GetRow(sender).ToString, joueuractuel2.GetScore()))
             joueuractuel4.PlacerTuile(TuileMainChoisi, PlateauVB.GetColumn(sender).ToString, PlateauVB.GetRow(sender).ToString)
 
             lbltestMF.Text = "Colonne " & PlateauVB.GetColumn(sender) ''Recupere la colonne de la derniere tuile posée
             lbltestTMF.Text = "Ligne " & PlateauVB.GetRow(sender)     ''Recupere la ligne de la derniere tuile posée
-            Label4.Text = "Couleur" & Plateau.testretourcouleur(PlateauVB.GetColumn(sender), PlateauVB.GetRow(sender), joueuractuel4.GetMain(TuileMainChoisi))
+
+        End If
+    End Sub
+
+    'poser dans le swap
+    Private Sub PBEchange_DragEnter(sender As Object, e As DragEventArgs) Handles PBEchange.DragEnter
+
+        If e.Data.GetDataPresent(DataFormats.Bitmap) Then
+            e.Effect = DragDropEffects.Move
+        Else
+            e.Effect = DragDropEffects.None
+        End If
+
+    End Sub
+
+    Private Sub PBEchange_DragDrop(sender As Object, e As DragEventArgs) Handles PBEchange.DragDrop
+        If Tour_joueur = 1 Then
+            sender.Image = e.Data.GetData(DataFormats.Bitmap)
+            Echange.SetSwap(joueuractuel.GetMain(TuileMainChoisi))
+            joueuractuel.EnleverTuileMain(TuileMainChoisi)
+        End If
+
+        If Tour_joueur = 2 Then
+            sender.Image = e.Data.GetData(DataFormats.Bitmap)
+            Echange.SetSwap(joueuractuel2.GetMain(TuileMainChoisi))
+            joueuractuel2.EnleverTuileMain(TuileMainChoisi)
+        End If
+
+        If Tour_joueur = 3 Then
+            sender.Image = e.Data.GetData(DataFormats.Bitmap)
+            Echange.SetSwap(joueuractuel3.GetMain(TuileMainChoisi))
+            joueuractuel3.EnleverTuileMain(TuileMainChoisi)
+        End If
+
+        If Tour_joueur = 4 Then
+            sender.Image = e.Data.GetData(DataFormats.Bitmap)
+            Echange.SetSwap(joueuractuel4.GetMain(TuileMainChoisi))
+            joueuractuel4.EnleverTuileMain(TuileMainChoisi)
         End If
     End Sub
 
     Private Sub cmdValidation_Click(sender As Object, e As EventArgs) Handles cmdValidation.Click
 
         Plateau.SetPose_Finie(False)
+
+        'réinitialisation du swap
+        Echange.ValiderSwap()
+        PBEchange.Image = Nothing
 
         If Tour_joueur = nb_joueurs Then 'Permet de faire la rotation des tours
             Tour_joueur = 0
@@ -262,10 +313,65 @@ Public Class frmFDJ
 
         End If
 
-        'Faire pour le joueur 3 & 4
+
+        If Tour_joueur = 3 Then 'recupere le joueur qui va jouer
+
+            Plateau.joueur3.AjouterTuileMain() 'organise si fin de partie ou non
+
+            joueuractuel3 = Plateau.joueur3
+            lblJoueurTour.Text = joueuractuel3.GetName()
+
+            If Plateau.joueur3.TuilesRestantes() = 0 Then
+                frmADFDP.ShowDialog()
+                Me.Visible = False
+            End If
+
+            PB1.Image = Image.FromFile(joueuractuel3.GetMain(0).GetPath())
+            PB2.Image = Image.FromFile(joueuractuel3.GetMain(1).GetPath())
+            PB3.Image = Image.FromFile(joueuractuel3.GetMain(2).GetPath())
+            PB4.Image = Image.FromFile(joueuractuel3.GetMain(3).GetPath())
+            PB5.Image = Image.FromFile(joueuractuel3.GetMain(4).GetPath())
+            PB6.Image = Image.FromFile(joueuractuel3.GetMain(5).GetPath())
+
+            'finir son tour, via le button valider qui mettra le paramètre pose finie sur true. Donc pas besoin de la code ici
+
+        End If
+
+        If Tour_joueur = 4 Then 'recupere le joueur qui va jouer
+
+            Plateau.joueur4.AjouterTuileMain() 'organise si fin de partie ou non
+
+            joueuractuel4 = Plateau.joueur4
+            lblJoueurTour.Text = joueuractuel4.GetName()
+
+            If Plateau.joueur4.TuilesRestantes() = 0 Then
+                frmADFDP.ShowDialog()
+                Me.Visible = False
+            End If
+
+            PB1.Image = Image.FromFile(joueuractuel4.GetMain(0).GetPath())
+            PB2.Image = Image.FromFile(joueuractuel4.GetMain(1).GetPath())
+            PB3.Image = Image.FromFile(joueuractuel4.GetMain(2).GetPath())
+            PB4.Image = Image.FromFile(joueuractuel4.GetMain(3).GetPath())
+            PB5.Image = Image.FromFile(joueuractuel4.GetMain(4).GetPath())
+            PB6.Image = Image.FromFile(joueuractuel4.GetMain(5).GetPath())
+
+            'finir son tour, via le button valider qui mettra le paramètre pose finie sur true. Donc pas besoin de la code ici
+
+        End If
 
         lblJ1Score.Text = Plateau.joueur1.GetScore()
-        lblJ2Score.Text = Plateau.joueur2.GetScore()
+        If nb_joueurs = 2 Then
+            lblJ2Score.Text = Plateau.joueur2.GetScore()
+        Else
+            If nb_joueurs = 3 Then
+                lblJ3Score.Text = Plateau.joueur3.GetScore()
+            Else
+                If nb_joueurs = 4 Then
+                    lblJ4Score.Text = Plateau.joueur4.GetScore()
+                End If
+            End If
+        End If
         Label3.Text = "Tour_J: " & Tour_joueur
     End Sub
 End Class

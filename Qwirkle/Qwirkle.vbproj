@@ -92,6 +92,12 @@
     <Compile Include="FenêtreDeJeu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="JeuEnReseau.Designer.vb">
+      <DependentUpon>JeuEnReseau.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JeuEnReseau.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MenuChoixJoueurs.Designer.vb">
       <DependentUpon>MenuChoixJoueurs.vb</DependentUpon>
     </Compile>
@@ -102,6 +108,12 @@
       <DependentUpon>MenuEnJeu.vb</DependentUpon>
     </Compile>
     <Compile Include="MenuEnJeu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuLobby.Designer.vb">
+      <DependentUpon>MenuLobby.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuLobby.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MenuPrincipal.vb">
@@ -146,11 +158,17 @@
     <EmbeddedResource Include="FenêtreDeJeu.resx">
       <DependentUpon>FenêtreDeJeu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="JeuEnReseau.resx">
+      <DependentUpon>JeuEnReseau.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuChoixJoueurs.resx">
       <DependentUpon>MenuChoixJoueurs.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuEnJeu.resx">
       <DependentUpon>MenuEnJeu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuLobby.resx">
+      <DependentUpon>MenuLobby.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.vb</DependentUpon>

@@ -9,7 +9,10 @@ Public Class FrmMP
     Private Sub Jouer_Click(sender As Object, e As EventArgs) Handles cmdJouer.Click
         frmMCJ.Show()
         Me.Visible = False
-
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        MenuLobby.Show()
+        Me.Visible = False
+    End Sub
 End Class
